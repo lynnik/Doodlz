@@ -70,8 +70,7 @@ public class MainActivityFragment extends Fragment {
         colorDialog.show(getFragmentManager(), "color dialog");
         return true;
       case R.id.line_width:
-        LineWidthDialogFragment widthDialog =
-            new LineWidthDialogFragment();
+        LineWidthDialogFragment widthDialog = new LineWidthDialogFragment();
         widthDialog.show(getFragmentManager(), "line width dialog");
         return true;
       case R.id.delete_drawing:
